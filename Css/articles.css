@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+body {
+  background-color: #2c373e;
+  width: 85%;
+  margin: auto;
+  color: white;
+}
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+header {
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+header a::before {
+  content: " Home";
+  text-align: center;
+  vertical-align: bottom;
+  color: #a58b81;
+  position: absolute;
+  left: 0;
+  padding-top: 0.5rem;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: #863533;
+}
+header h1 {
+  color: #863533;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+header h2 {
+  color: #a58b81;
+  letter-spacing: 0.5rem;
+  font-family: "Lora", serif;
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 5px;
+  object-fit: contain;
+}
+.header-article {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.header-article span {
+  font-size: 3rem;
+}
+.p-img img {
+  width: 100%;
+}
+.header-img {
+  width: 100%;
+}
