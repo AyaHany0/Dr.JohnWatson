@@ -49,9 +49,15 @@ a:active {
   .navbar h1 {
     margin: 0;
   }
+  .footer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .footer-social {
+    flex-direction: row;
+  }
 }
 
-/* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .cards {
     grid-template-columns: 1fr 1fr;
