@@ -1,0 +1,82 @@
+.about {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1;
+}
+.about-content {
+  position: relative;
+  margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-photo,
+.about-content {
+  text-align: start;
+  vertical-align: bottom;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.05rem;
+  text-shadow: #ad948a;
+}
+.about-content-photo {
+  padding-top: 8rem;
+}
+
+.about-photo img {
+  border-radius: 10px;
+  width: 100%;
+}
+.about-photo p {
+  margin: 2rem auto;
+  width: 68%;
+  color: #863533;
+}
+
+.about-content p {
+  width: 60%;
+  line-height: 2rem;
+}
+.about-content img {
+  border-radius: 80%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.about-content .john-2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 10%;
+  top: 0;
+}
+.about-content .john-1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 0;
+  top: 15%;
+  z-index: 1;
+}
+.about-content .overlay {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  background-color: #863433e6;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .overlay span {
+  color: #b99d92;
+  font-family: "Lora", serif;
+  font-size: 2.2rem;
+}

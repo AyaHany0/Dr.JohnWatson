@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 body {
   background-color: #2c373e;
   width: 85%;
@@ -61,4 +62,23 @@ img {
 }
 .header-img {
   width: 100%;
+}
+
+.footer {
+  color: #a58b81;
+  font-size: larger;
+  text-align: center;
+  padding: 1rem;
+}
+.copyright {
+  border-top: 1px solid #863433ce;
+  padding: 1rem;
+}
+.footer-body {
+  border-top: 1px solid #863533;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  text-align: left;
 }

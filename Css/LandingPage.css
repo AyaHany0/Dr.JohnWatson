@@ -1,0 +1,41 @@
+.hero {
+  background-image: url("../imgs/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.hero h4 {
+  color: #ad948a;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  text-shadow: #ad948a;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+}
+.hero h2 {
+  color: #863533;
+  font-family: "Lora", serif;
+  font-style: italic;
+  text-shadow: #863533;
+  letter-spacing: 0.2rem;
+  font-size: 3.5rem;
+  position: absolute;
+  left: 80px;
+  top: 300px;
+}
+.hero p {
+  color: #ad948a;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  text-shadow: #ad948a;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
+}

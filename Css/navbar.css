@@ -1,0 +1,21 @@
+.navbar h1 {
+  margin: 0 50px;
+  align-self: flex-start;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0 50px;
+}
+.navbar li {
+  float: left;
+  margin: 0 15px;
+}
+.navbar {
+  font-family: "Playfair Display", serif;
+  background-color: #fffeff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.136);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}

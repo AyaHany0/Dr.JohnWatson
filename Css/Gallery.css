@@ -1,0 +1,18 @@
+.list {
+  columns: 300px;
+  width: 85%;
+  margin: auto;
+}
+.list img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.gallery {
+  text-align: center;
+  font-size: 2rem;
+  color: #863533;
+}
+.gallery h5 {
+  margin: 2rem;
+}

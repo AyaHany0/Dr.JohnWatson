@@ -1,0 +1,50 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: 5rem auto;
+  color: #863533;
+  text-align: center;
+}
+
+.card1 img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+.card1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.card1:hover .content-overlay {
+  display: flex;
+}
+.content-overlay a::after {
+  content: " See More ";
+  text-align: center;
+  padding: 1rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #863533;
+  color: white;
+  line-height: 1.5rem;
+  bottom: 20%;
+  left: 5%;
+  transform: translateY(200%);
+  transition: transform 1.5s, opacity 0.8s;
+}
+.card1:hover .content-overlay a::after {
+  transform: translateY(0);
+  opacity: 1;
+}
+.content-overlay a:hover::after {
+  background-color: #863533;
+}
